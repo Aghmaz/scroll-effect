@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+  }
+  
+  .image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+  }
+  
+  img {
+    width: 300px; /* Adjust the width as per your requirements */
+    height: auto;
+    scroll-snap-align: center;
+    margin: 0 10px; /* Adjust the margin between images as needed */
+  }
+  
